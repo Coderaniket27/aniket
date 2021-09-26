@@ -24,7 +24,7 @@
                 padding-top: 5px;
             }
             .under-heading{
-                color:white;
+                color:green;
                 padding-top: 0px;
             }
             .Read{
