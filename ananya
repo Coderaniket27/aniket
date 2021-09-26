@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <head>
+        <style>
+           
+            body{
+                width: 100%;
+                text-align: center;
+                font-family:Verdana;
+               
+            }
+            .header{
+                background-color: aqua;
+                padding: 15px;
+                height: 100px;
+                color:white;
+                opacity:0.5;
+                position:fixed;
+                width: 100%;
+            }
+            .heading{
+                color:white;
+                padding-top: 5px;
+            }
+            .under-heading{
+                color:white;
+                padding-top: 0px;
+            }
+            .Read{
+                background-color:rgb(26, 25, 25);
+                padding:10px;
+                margin-bottom:60px;
+                color:white;
+            }
+            .Second{
+                background-color: white;
+                padding-bottom: 13%;
+            }
+            .flex-container1{
+                display:flex;
+                justify-content:center;
+                max-width: 100%;
+                
+ 
+            }
+            .flex-container1 >div{
+                
+                max-width:300px ;
+                margin: 10px;
+                font-size: 14px;
+                
+                
+            }
+            .flex-container{
+                display:flex;
+                justify-content:center;
+              
+                background-color: rgb(67, 68, 70);
+        
+ 
+            }
+            .flex-container > div{
+                background-color:white;
+            width: 10%;
+              margin-right: 10px;
+             margin-top: 6px;
+             margin-bottom: 6px;
+                text-align: center;
+ 
+              }
+             
+              .Fourth{
+                  backround-color:white;
+                  text-align: center;
+                  
+              }
+            
+              .contact{
+                  float:left;
+                  background-color: rgb(27, 88, 116);
+                 max-width: 50%;
+                  color:white;
+                  height: 250px; 
+                  
+                }
+              .About{
+                  float:right;
+                max-width: 50%;
+                background-color:  rgb(67, 68, 70);
+                color:white;
+                height: 250px; 
+               
+                
+                }
+                #op{
+                    padding-left: 145px;
+      padding-right: 145px;
+      padding-bottom: 45px;
+      font-size: 14px;
+      color: blue;
+                }
+               
+                .left-side{
+                    float:left;
+                    text-align: center;
+                   width: 50%;
+                    color:white;
+                    background-color: black;
+                   max-height:45px;
+                }
+                .right-side{
+                    float:right;
+                    width: 50%;
+                    background-color: black;
+                    color:white;
+                    height: 45px;
+                    text-align: center;
+                }
+                @media screen and (max-width: 600px) {
+  .flex-container{
+      display:block;
+      margin-top: 180px;
+    
+  }
+  .flex-container > div{
+    
+     width: 100%;
+     margin-top: 0%;;
+  }
+  .flex-container1{
+      display: block;
+
+  }
+  #op{
+     padding-left: 4px;
+      padding-right: 4px;
+      padding-bottom: 0px;
+      color:red;
+      font-size: 12px;
+  }
+  
+ 
+ 
+ 
+           
+          </style>
+    </head>
+    <body>
+        <div class="header">
+            <h1>Loren Ipsum</h1>
+          </div>
+        <div class="first">
+        <div style="background-image:url('https://recruitinginnovation.com/wp-content/uploads/brizy/11672/assets/images/iW=760&iH=409&oX=0&oY=53&cW=760&cH=302/ad1fa6ea53a2669643ff5bc19672b82a.jpeg');">
+<div class="heading"><h3>Welcome to Acme Web Solutions</h3></div>
+<div class="under-heading"><p>ffexersesfdxfxxexcfcfcrctcccfc cfctrcfcf<br>dxexftccrffv<br></p></div>
+    <div><button type="Read-More" class="Read"><b>Read More</b></div>
+     </div>   
+    </div>
+    <br>
+    <div class="Second" style="height:100px;">
+ <h3 style="padding-top: 20px;">Web & Application Development</h3>
+<div class="flex-container1"><div class="part1"><p style="padding-top: 3px;">Lorem ipsum dolor sit amet,consectetuer adipiscing elit,sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p></div>
+    <div class="part2"><p style="padding-top: 3px;">The oldest classical Greek and Latin writing had little or no space between words and could be written in boustrophedon</p></div>
+    </div>
+   </div>
+       <div class="flex-container">
+        <div>
+            <img src="https://img.freepik.com/free-photo/corporate-businessmen-working-tablet-office_53876-97637.jpg?size=626&ext=jpg" alt="left" style="width:170px;height:100px;">
+           <h5 style="padding: 2px;">Web Development</h5> 
+             <p style="font-size:12.3px;padding: 10px;">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>  
+            </span></div>
+            <div>
+                <img src="https://www.counterpointresearch.com/wp-content/uploads/2020/09/jonah-pettrich-V-dfcNnb9OU-unsplash.jpg" alt="middle" style="width: 170px; height:100px;">
+                <span style="text-align: center;padding: 10px;"> <h5 style="padding:2px;">Mobile Applications</h5>
+                <p style="font-size:12.3px;padding: 10px;">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>  
+            </span></div>
+            <div>
+                <img src="https://www.investopedia.com/thmb/ooWnJKzULBikIcMgNqZdiRvHHBY=/2121x1414/filters:fill(auto,1)/GettyImages-964033964-ca3290057ccc4024b57e755423572264.jpg" alt="right" style="width:170px;height:100px;">
+                <span style="text-align: center;  padding: 10px;"><h5 style="padding:2px;">Tech Marketing</h5>
+            <p style="font-size:12.3px;padding: 10px;">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>  
+         </span></div>
+    </div>
+    <div class="Fourth"><h3 style="padding-top: 20px;">We handle all of your digital needs</h3></div>
+    <p id="op">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. </p></div>
+    </div>
+    <div class="Fifth">
+    <div class="contact"><h3>Contact Us</h3>
+    <p style="font-size:12px;">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
+<br><p style="padding:20px;">contact:ananya@gmail.com</p></div>
+<div class="About"><h3>About our Company</h3>
+<p style="font-size:12px;">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
+</div>
+</div>
+<div class="end"><div class="left-side"><p style="color:white;">Acme Web Solution</p></div>
+<div class="right-side"><p>Project by <span style="color:rgba(20, 78, 153, 0.795);">Ananya</span></p></div>
+</div>
+ 
+ 
+    </body>
+</html>
